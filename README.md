@@ -13,7 +13,9 @@ The model processing and training are using a Jupyter Notebook with python langu
 -  math score [0,100]
 -  reading core [17,100]
 -  writing score [10,100]
--  The dataset can be found on [Royce Kimmons website](http://roycekimmons.com/tools/generated_data/exams). Otherwise, you can find on [Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data). This is the data preview of the first 5 students in dataset.
+The dataset can be found on [Royce Kimmons website](http://roycekimmons.com/tools/generated_data/exams). Otherwise, you can find on [Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data).
+This is the data preview of the first 5 students in dataset:
+![Data Preview](/Graphs/data_preview.png)
 
 ### Methods
 -  NumPy, Pandas for data analysis the distribution and analysis
