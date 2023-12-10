@@ -20,14 +20,20 @@ The main point of the project is analyzing the factors that can affect student s
   The dataset can be found on [Royce Kimmons website](http://roycekimmons.com/tools/generated_data/exams). Otherwise, you can find on [Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data).
 This is the data preview of the first 5 students in the dataset:
 ![Original Data Preview](/Graphs/orig_data_preview.png)
-  In this data, I use the average score for analysis. The column "average score" is calculated from the average of math scores, writing scores, and reading scores of each student.
+  In this data, I use the average score for analysis. The column "average score" is calculated from the average of all math scores, writing scores, and reading scores of each student.
 ![Add Average Score](/Graphs/avg_score_data.png)
-  In order to reduce the mistakes in processing data, I check if the data have any duplicates or null values in the dataset:
-![Check Data]
+  To reduce the mistakes in processing data, I check if the data have any duplicates or null values in the dataset:
+![Check Data](/Graphs/check_data.png)
+The dataset does not have any duplicates or null values.
 ### Methods
 -  NumPy, and Pandas for data analysis distribution and analysis
 -  Matplot, Seaborn for graphs
 -  Scikit-learn for data analysis and predicting
 -  GitHub to upload the project
 -  Jupyter Book as IDE
-   
+#### First Question's Method 
+  I drew a strip plot by Seaborn is used. The strip plot shows the individual data points in the graph. Using this graph will show the highest data point of average scores of different types of lunch that students received, and can indicate whether this data point is male or female.
+   - The X-axis represents different lunch types ( standard or free/reduced)
+   - The Y-axis represents the average score of students [0;100]
+   - The pink color point is female and the Blue color point is male
+#### Second Question's Method 
