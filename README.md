@@ -2,7 +2,7 @@
 
 ## Introduction
   This project aims to analyze the student performance in exams by using linear regression and distribution, and predicting how students perform for each object. This project will be helpful for teachers in high school to keep track of their students, and the subjects that the student performs in class. Therefore, the teacher can take further action for each student.
-The main point of the project is analyzing the factors that can affect student scores, and if we can predict the student's score by factors. There are three questions that this project concentrates:
+The main point of the project is analyzing the factors that can affect student scores, and if we can predict the student's scores by factors. There are three questions that this project concentrates:
   1. Does food affect the student score? If students receive the standard lunch, do they receive higher scores?
   2. Which group of race/ethnicity has the highest average score? In this group, male or female has the higher score?
   3. Can we predict their score based on the parental level of education and what is the percentage of the accuracy?
@@ -49,4 +49,5 @@ The dataset does not have any duplicates or null values.
 #### Third Question's Method
   First of all, using LabelEncoder to encode the columns with strings (gender, race/ethnicity,	parental level of education,	lunch, test preparation course) into the numerical values. Besides the LabelEncoder, I use the map to address the string values as the desired numerical value. 
   ![LabelEncoder](/Graphs/label_encoder.png)
+  
   
