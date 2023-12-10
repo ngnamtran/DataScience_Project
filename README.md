@@ -20,7 +20,7 @@ The model processing and training are using a Jupyter Notebook with Python langu
 The dataset can be found on [Royce Kimmons website](http://roycekimmons.com/tools/generated_data/exams). Otherwise, you can find on [Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams/data).
 This is the data preview of the first 5 students in the dataset:
 ![Data Preview](/Graphs/data_preview.png)
-
+In this data, I use the average score for analysis. The column "average score" is calculated from the average of math scores, writing scores, and reading scores of each student. 
 ### Methods
 -  NumPy, and Pandas for data analysis distribution and analysis
 -  Matplot, Seaborn for graphs
