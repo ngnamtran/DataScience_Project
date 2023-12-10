@@ -36,4 +36,5 @@ The dataset does not have any duplicates or null values.
    - The X-axis represents different lunch types ( standard or free/reduced)
    - The Y-axis represents the average score of students [0;100]
    - The pink color point is female and the Blue color point is male
-#### Second Question's Method 
+#### Second Question's Method
+  I chose the box plot from Seaborn to use. The box plot shows the upper extreme, lower extreme, median, and upper quartile, lower quartile of student average scores of each group race.  
