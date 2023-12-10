@@ -28,7 +28,12 @@ The dataset does not have any duplicates or null values.
 ### Methods
 -  NumPy, and Pandas for data analysis distribution and analysis
 -  Matplot, Seaborn for graphs
--  Scikit-learn for data analysis and predicting
+-  Scikit-learn for data processing and predicting
+    - LabelEncoder: preprocessing
+    - make_classification: datasets
+    - train_test_split: model_selection
+    - LinearnSVC: svm 
+    - accuracy_score: metrics
 -  GitHub to upload the project
 -  Jupyter Book as IDE
 #### First Question's Method 
@@ -37,4 +42,8 @@ The dataset does not have any duplicates or null values.
    - The Y-axis represents the average score of students [0;100]
    - The pink color point is female and the Blue color point is male
 #### Second Question's Method
-  I chose the box plot from Seaborn to use. The box plot shows the upper extreme, lower extreme, median, and upper quartile, lower quartile of student average scores of each group race.  
+  I chose the box plot from Seaborn to use. The box plot shows some lowest values, the upper extreme, lower extreme, median, and upper quartile, lower quartile of student average scores of each group race.  
+   - The X-axis represents a different group of race/ethnicity
+   - The Y-axis represents the average score of students [0;100]
+   - The pink color point is female and the Blue color point is male
+#### Third Question's Method
