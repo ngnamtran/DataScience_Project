@@ -22,6 +22,8 @@ This is the data preview of the first 5 students in the dataset:
 ![Original Data Preview](/Graphs/orig_data_preview.png)
   In this data, I use the average score for analysis. The column "average score" is calculated from the average of math scores, writing scores, and reading scores of each student.
 ![Add Average Score](/Graphs/avg_score_data.png)
+  In order to reduce the mistakes in processing data, I check if the data have any duplicates or null values in the dataset:
+![Check Data]
 ### Methods
 -  NumPy, and Pandas for data analysis distribution and analysis
 -  Matplot, Seaborn for graphs
