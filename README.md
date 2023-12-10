@@ -47,3 +47,6 @@ The dataset does not have any duplicates or null values.
    - The Y-axis represents the average score of students [0;100]
    - The pink color point is female and the Blue color point is male
 #### Third Question's Method
+  First of all, using LabelEncoder to encode the columns with strings (gender, race/ethnicity,	parental level of education,	lunch, test preparation course) into the numerical values. Besides the LabelEncoder, I use the map to address the string values as the desired numerical value. 
+  ![LabelEncoder](/Graphs/label_encoder.png)
+  
