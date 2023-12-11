@@ -47,8 +47,21 @@ The dataset does not have any duplicates or null values.
    - The Y-axis represents the average score of students [0;100]
    - The pink color point is female and the Blue color point is male
 #### Third Question's Method
-    First of all, using LabelEncoder to encode the columns with strings (gender, race/ethnicity,	parental level of education,	lunch, test preparation course) into the numerical values.
-    The sklearn.datasets.make_classification is set to create clusters of points normally distributed (std=1) with the number of samples are 1000, and the rest are set as default. This will reduce the noise of data. 
-    The sklearn.model_selection.train_test_split splits data into 50% random train and 50% test subsets.
-    Then, I use the sklearn.svm.LinearSVC to train the data and use that to predict. 
-    Finally, I use sklearn.metrics.accuracy_score to calculate  the accuracy between the test data and prediction data 
+First of all, using LabelEncoder to encode the columns with strings (gender, race/ethnicity,	parental level of education,	lunch, test preparation course) into the numerical values.
+The sklearn.datasets.make_classification is set to create clusters of points normally distributed (std=1) with the number of samples is 1000, and the rest are set as default. This will reduce the noise of data. 
+The sklearn.model_selection.train_test_split splits data into 50% random train and 50% test subsets.
+Then, I use the sklearn.svm.LinearSVC to train the data and use that to predict. 
+Finally, I use sklearn.metrics.accuracy_score to calculate  the accuracy between the test data and prediction data .
+### Result
+![Question1](/Graphs/question1.png)
+This is the graph about the average score of students and lunch, which is used to answer question 1. Students with standard lunches get slightly high scores.
+![Question2](/Graphs/question2.png)
+This is the graph about the average score of students and race, which is used to answer question 2. Students from Group E has the highest mean in average score in both female and male, while group A has the lowest mean in both female and male
+
+The picture above shows the accuracy of the prediction when using the parental level of education and average scores as independent values and dependent values. 
+### Discussion
+  Based on the results of question 1, lunch does have an impact on the average score of students. When students have enough energy, their brains are stimulated effectively, which may improve the student's average score.
+  Based on the graph of question 2, group E has the highest mean average score of students, the group A has the lowest score among the groups. However, the first quantile of male students in group B is lowest. 
+For question 3, at first, I used all features in datasets as independent values. However, when I choose one precise feature (parental level of education), the accuracy score of prediction is higher than the previous accuracy score. This difference may be a result of other features that do not have a tight relationship with student scores. 
+
+
