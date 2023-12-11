@@ -61,7 +61,7 @@ This is the graph about the average score of students and lunch, which is used t
 
 This is the graph about the average score of students and race, which is used to answer question 2. Students from Group E has the highest mean in average score in both female and male, while Group A has the lowest mean in both female and male
 
-![Question3](/Graphs/question3.png)
+![Question 3](/Graphs/question3.png)
 
 The picture above shows the accuracy of the prediction when using the parental level of education and average scores as independent values and dependent values. 
 ### Discussion
@@ -72,7 +72,9 @@ For question 3, at first, I used all features in datasets as independent values.
 This project uses Data Science and Machine Learning to analyze the students' scores and their factors and predict their scores based on their factors by LinearSVC. After the experiment, lunch had an impact on students' scores, while race/ethnicity did but not too obvious. I experienced the factor of parental level of education to predict scores with an accuracy of around 96%.
 ### References 
 [1] [Professor Pang's sample](https://github.com/pangwit/DS_Individual_Project_Example/blob/main/README.md)
+
 [2] [Professor Royce Kimmons's dataset](http://roycekimmons.com/tools/generated_data/exams)
+
 [3] [Students Performance in Exams Dataset: Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
 
 
