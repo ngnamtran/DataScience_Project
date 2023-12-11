@@ -73,6 +73,6 @@ This project uses Data Science and Machine Learning to analyze the students' sco
 ### References 
 [1] [Professor Pang's sample](https://github.com/pangwit/DS_Individual_Project_Example/blob/main/README.md)
 [2] [Professor Royce Kimmons's dataset](http://roycekimmons.com/tools/generated_data/exams)
-[3] [Students Performance in Exams Dataset: Kaggle] (https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
+[3] [Students Performance in Exams Dataset: Kaggle](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
 
 
