@@ -48,7 +48,7 @@ The dataset does not have any duplicates or null values.
    - The pink color point is female and the Blue color point is male
 #### Third Question's Method
   First of all, using LabelEncoder to encode the columns with strings (gender, race/ethnicity,	parental level of education,	lunch, test preparation course) into the numerical values. Besides the LabelEncoder, I use the map to address the string values as the desired numerical value. 
-  ![LabelEncoder](/Graphs/label_encoder.png)
-  The sklearn.datasets.make_classification is set to create clusters of points normally distributed (std=1) with a number of samples are 1000, and the rest are set as default. This will reduce the noise of data. 
+  The sklearn.datasets.make_classification is set to create clusters of points normally distributed (std=1) with the number of samples are 1000, and the rest are set as default. This will reduce the noise of data. 
   The sklearn.model_selection.train_test_split splits data into 50% random train and 50% test subsets.
-  
+  Then, I use the sklearn.svm.LinearSVC to train the data and use that to predict. 
+  Finally, I use sklearn.metrics.accuracy_score to calculate  the accuracy between the test data and prediction data 
