@@ -1,4 +1,4 @@
-# DataScience_Project
+# STUDENT PERFORMANCE ANALYSIS AND PREDICTION
 
 ## Introduction
   This project aims to analyze the student performance in exams by using linear regression and distribution, and predicting how students perform for each object. This project will be helpful for teachers in high school to keep track of their students, and the subjects that the student performs in class. Therefore, the teacher can take further action for each student.
